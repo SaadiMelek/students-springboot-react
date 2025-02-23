@@ -1,0 +1,81 @@
+# See https:/docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+students-client/students-front-react/dist
+students-client/students-front-react/tmp
+students-client/students-front-react/out-tsc
+students-client/students-front-react/bazel-out
+
+# Node
+students-client/students-front-react/node_modules
+students-client/students-front-react/npm-debug.log
+students-client/students-front-react/yarn-error.log
+
+# IDEs and editors
+students-client/students-front-react/.idea/
+students-client/students-front-react/.project
+students-client/students-front-react/.classpath
+students-client/students-front-react/.c9/
+students-client/students-front-react/*.launch
+students-client/students-front-react/.settings/
+students-client/students-front-react/*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+students-client/students-front-react/.angular/cache
+students-client/students-front-react/.sass-cache/
+students-client/students-front-react/connect.lock
+students-client/students-front-react/coverage
+students-client/students-front-react/libpeerconnection.log
+students-client/students-front-react/testem.log
+students-client/students-front-react/typings
+
+# System files
+students-client/students-front-react/.DS_Store
+students-client/students-front-react/Thumbs.db
+
+
+
+
+
+
+HELP.md
+students-back/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+students-back/.apt_generated
+students-back/.classpath
+students-back/.factorypath
+students-back/.project
+students-back/.settings
+students-back/.springBeans
+students-back/.sts4-cache
+
+### IntelliJ IDEA ###
+students-back/.idea
+students-back/*.iws
+students-back/*.iml
+students-back/*.ipr
+
+### NetBeans ###
+students-back/nbproject/private/
+/students-back/nbbuild/
+students-back/dist/
+students-back/nbdist/
+students-back/.nb-gradle/
+students-back/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/

@@ -1,0 +1,4 @@
+package com.mlk.students.exception;
+
+public class CustomExceptionHandler {
+}
